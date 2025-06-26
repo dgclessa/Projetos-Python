@@ -21,3 +21,19 @@
 email = input('Digite seu email: ')
 arroba = email.find('@')
 print(arroba)
+usuario = email[0:arroba]
+dominio = email[arroba+1:]
+print(usuario)
+print(dominio)
+
+#Docstring
+
+"""""
+Docstring é uma documentação de uma função, classe ou módulo
+"""""
+
+texto = """""
+Docstring é uma documentação de uma função, classe ou módulo
+"""""
+
+print(texto)
